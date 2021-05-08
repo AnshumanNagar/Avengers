@@ -1,0 +1,71 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#nav_Bar {
+	list-style-type: none;
+	background-color: skyblue;
+	text-indent: 30px;
+	height: 50px;
+	padding: 10px;
+	padding-left: -100px;
+	margin-left: -900px;
+}
+
+.nav_List {
+	text-decoration: none;
+	display: inline-block;
+}
+
+.nav_Item {
+	padding: 10px;
+	cursor: pointer;
+	color: purple;
+	font-size: 20px;
+	font-family: sans-serif;
+	border-radius: 75px;
+}
+
+.nav_Item:hover {
+	color: white;
+	background-color: darkcyan;
+	text-decoration: none;
+}
+
+#avengers_Intro {
+	color: ;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+h1{
+	background: -webkit-linear-gradient(skyblue, purple);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.grid_View_Images{
+	width: 300px;
+	height: 300px;
+}
+
+.carousel-inner img{
+	width: 400px;
+	height: 400px;
+	margin-top: 30px;
+}
+
+.slide_Name{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#mycarousel{
+	background-image: linear-gradient(skyblue, purple);
+}
